@@ -1,0 +1,6 @@
+<Files "*.txt">
+deny from all
+</Files>
+<Files "*.php">
+deny from all
+</Files>

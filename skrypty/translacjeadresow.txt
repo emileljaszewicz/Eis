@@ -1,0 +1,40 @@
+<---- Konfiguracja startowa ---->
+logowanie_do_aplikacji.html,stronakonfig
+<---- Administrator serwisu ---->
+listaszkol.html,szkolylista
+powiadomienia.html,allerty
+archiwum.html,szkolyarchiwum
+
+<---- Nowy u¿ytkownik ---->
+nowedane.html,nowyuzytkownik
+
+<---- Szko³a ---->
+konta_nauczyciele.html,kontazarzadzanie
+kategorie.html,adminkategorie
+dziennik.html,dziennikszkola
+organizer.html,nauczycielorganizer
+licencja.html,szkolalicencja
+
+<---- Wychowawca ---->
+twoja_klasa.html,klasanauczyciel
+
+
+<---- Uczeñ ---->
+wykaz_ocen.html,ocenyuczen
+terminy.html,uczenkalendarz
+plan_zajec.html,uczenzajecia
+
+
+<---- Wszyscy ---->
+wiadomosci.html,uzytkownikwiadomosci
+ogloszenia.html,szkolaogloszenia
+
+ocenianie.html,oceny
+kalendarium.html,kalendarz	
+wiadomosci_uczen.html,wiadomosci
+allerty.html,ogloszenia
+
+<---- Goœæ ---->
+logowanie.html,logowanie
+potwierdz_dane.html,uwierzytelnianie
+rejestracja.html,rejestracja

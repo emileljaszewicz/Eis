@@ -1,0 +1,187 @@
+#formularz_kontener{
+    display:block;
+    width:50%;
+    margin:10px auto 40px auto;
+    background: #F2F2F2;
+    text-align:center;
+    font-family: Arial;
+    color: #757373;
+}
+#formularz_kontener, #formularz_informacje, #formularz_pole p input, input[type="submit"], #formularz_pole #data_formularz select, #formularz_pole p textarea, #checkbox_kontener{
+    border: 1px solid #d3d3d3;
+}
+#formularz_informacje{
+    width: 80%;
+    margin:0px auto;
+    padding:0.5vw;
+    font-size: 1vw;
+    text-align:justify;
+}
+#formularz_informacje b{
+    font-weight:bold;
+}
+#formularz_nazwa{
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 1vw;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:1.5vw;
+    padding: 1vw 0px 1vw 0px;
+}
+#formularz_pole{
+    width:80%;
+    margin:1.5vw auto 0px auto;
+}
+#formularz_pole p{
+    margin-bottom: 0.5vw;
+}
+#formularz_pole h1, #formularz_pole p input{
+    text-align:left;
+    font-size: 1vw;
+    color: #757373;
+}
+#formularz_pole p input{
+    width:100%;
+    height:2.5vw;
+    text-align:center;
+    font-weight:bold;
+}
+#formularz_pole p textarea{
+    width:100%;
+    height:10vw;
+}
+#formularz_pole p option{
+    max-width:10vw;
+}
+#formularz_pole #data_formularz select{
+    padding:0.1vw 1vw 0.1vw 1vw;
+    margin-right:1vw;
+    text-align:center;
+}
+input[type="submit"]{
+    width:30%;
+    margin:1vw auto;
+    padding: 0.6vw 0vw 0.6vw 0vw;
+    background: #eae7e7;
+    font-size:1vw;
+    font-weight:bold;
+    color: #757373;
+}
+#formularz_odnosniki{
+    margin: 0.5vw 0vw 1vw 0vw;
+    text-align:center;
+}
+#formularz_odnosniki a{
+    display:inline-block;
+    width:27%;
+    margin: 0px 0.8vw 0px 0.8vw;
+    color: #757373;
+    text-decoration: none;
+    font-size: 1vw;
+}
+#checkbox_kontener{
+    width:100%;
+    text-align:left;
+    padding:0vw 0vw 0vw 0.5vw;
+
+}
+.dzielcheckbox{
+    display:inline-block;
+    margin-right:0.5vw;
+    width:20%;
+}
+.pole_checkbox{
+    display:block;
+    margin: 1vw 0vw 1vw 0vw;
+}
+.input{
+    width:20%;
+    float:left;
+}
+.nazwa_checkbox{
+    width:80%;
+    float:left;
+}
+#blad_komunikat{
+    margin:10px auto 0px auto;
+    display:inline-block;
+    padding:10px;
+    border: 1px solid red;
+    color:red;
+    text-align:center;
+}
+#formaprzyciski{
+    width:100%;
+    clear:both;
+    display:block;
+    padding-top:1vw;
+}
+#formaprzyciski input[type="submit"], #formaprzyciski a{
+    margin:0px auto;
+    border: 1px solid #d3d3d3;
+    background: #F2F2F2;
+}
+#formaprzyciski input[type="submit"]{
+    padding:0.2vw 1vw 0.2vw 1vw;
+}
+#formaprzyciski a{
+    padding:0.1vw 1vw 0.1vw 1vw;
+}
+.przycisk_a{
+    display:inline-block;
+    border: 1px solid #d3d3d3;
+    background: #eae7e7;
+    padding:0.35vw 1vw 0.3vw 1vw;
+    margin-left:1vw;
+    color: #757373;
+    font-size: 0.8vw;
+    font-weight:bold;
+}
+#nowy_dzien_kontener{
+    width:50%;
+    margin:4vw auto;
+}
+#nowy_dzien_kontener p{
+    clear:both;
+    padding-bottom:1vw;
+}
+#nowy_dzien_kontener .nazwa_pola{
+    width:50%;
+    float:left;
+}
+#nowy_dzien_kontener .opcje{
+    width:50%;
+    float:right;
+}
+#nowy_dzien_kontener .opcje select{
+    width:10vw;
+}
+#nowy_dzien_kontener .opcje input[type="text"], #nowy_dzien_kontener .opcje select{
+    text-align:center;
+}
+#nowy_dzien_kontener .opcje input[type="text"], #nowy_dzien_kontener a{
+    font-size:0.8vw;
+    border: 1px solid #d3d3d3;
+}
+#nowy_dzien_kontener input[type="submit"]{
+    display:inline-block;
+    font-size: 0.8vw;
+    width:auto;
+    padding:0.2vw 0.5vw 0.2vw 0.5vw;
+    margin:1vw 0vw 0vw 0vw;
+    margin:0vw;  
+    font-weight:bold;
+}
+#nowy_dzien_kontener a{
+    display:inline-block;
+    font-size:0.8vw;
+    background: #eae7e7;
+    color: #757373;
+    font-weight:bold;
+    font-family:arial;
+    padding:0.3vw 0.5vw 0.3vw 0.5vw;
+    margin:1vw 0vw 0vw 2vw;
+}
+#blad_komunikat b{
+    font-weight:bold;
+}

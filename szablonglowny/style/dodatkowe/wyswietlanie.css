@@ -1,0 +1,581 @@
+#szkola_dane_kontener{
+    width:100%;
+    margin:20px auto;
+}
+#szkola_kontener_opis{
+    font-size:1.3vw;
+}
+.dane_sekcja{
+    padding: 0vw 0vw 3vw 0vw;
+}
+.dane_opis{
+    float:left; 
+    width:35%;
+    text-align:right;
+}
+.dane_tresc{
+    float:right;
+    width:55%;
+    text-align:left;
+}
+.dane_tresc a{
+    display:inline-block;
+    margin-right:1vw;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    background: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    font-size: 0.8vw;
+    color: #1e1d1d;
+}
+#wiadomosci{
+    margin:20px auto;
+}
+.wiadomosc_kontener{
+    margin:10px auto;
+    display:table;
+    width:80%;
+}
+.opcja{
+    display:table-cell;
+    width:2%;
+    padding:0.4vw;
+    vertical-align: middle;
+}
+.wiadomosc_nieprzeczytana, .wiadomosc_przeczytana{
+    padding:0.4vw;
+    background: #F2F2F2;
+    border: 1px solid #bababa;
+}
+.wiadomosc_nieprzeczytana{
+    color:#5f5e5e;
+}
+.wiadomosc_przeczytana{
+    color: #a7a6a6;
+}
+.wiadomosc_ikona{
+    text-align:center;
+    width:5%;
+}
+.wiadomosc_ikona img{
+    height:1.4vw;
+}
+.wiadomosc_autor, .wiadomosc_temat, .wiadomosc_ikona{
+    display:table-cell;
+    vertical-align: middle;
+
+}
+.wiadomosc_autor, .wiadomosc_temat{
+    text-align:left;
+    padding:0vw 0vw 0vw 0.5vw;
+    font-weight:bold;
+}
+.wiadomosc_autor{
+    width:35%;
+    border-right: 1px solid #bababa;
+}
+.wiadomosc_temat{
+    width:50%;  
+}
+#wiadomosc_wyswietl{
+    margin-top:2vw;
+}
+#temat_wiadomosci, #tresc_wiadomosci{
+    width:100%;
+    border: 1px solid #bababa;
+    padding:0.5vw;
+    text-align:left;
+}
+#temat_wiadomosci{
+    background: #F2F2F2;
+    font-weight:bold;
+    margin-bottom:1vw;
+}
+#autor_wiadomosci, #data_wiadomosci{
+    font-size:0.8vw;
+
+}
+#autor_wiadomosci p, #data_wiadomosci p{
+    display:inline-block;
+}
+#szczegoly_wiadomosci{
+    border-top: 1px solid #bababa;
+    margin-top:1vw;
+    padding-top:0.5vw;
+}
+#autor_wiadomosci{
+    margin-bottom:0.5vw;
+}
+#resetuj{
+    margin-left:1vw;
+}
+.powiadomienie_kontener{
+    width: 100%;
+    margin:1vw auto;
+    background: #f2f2f2;
+    border: 1px solid #d3d3d3;
+}
+.powiadomienie_belka{
+    border-bottom: 1px solid #d3d3d3;
+    background: #e5e3e3;
+    text-align:left;
+}
+.powiadomienie_tytul, .powiadomienie_data{
+    display:inline-block;
+    padding:0.5vw 0vw 0.5vw 0.5vw;
+    text-align:left;
+}
+.powiadomienie_data{
+    color: #bababa;
+}
+.powiadomienie_tresc{
+    padding:0.8vw;
+    text-align:left;
+}
+.powiadomienie_tresc a{
+    padding:0vw 0.5vw 0vw 0vw;
+    color:#096fec;
+}
+@media screen and (max-width: 1024px) {
+	#plan_zajec_kontener{
+		font-size:1vw;
+	}
+}
+@media screen and (min-width: 1025px) {
+	#plan_zajec_kontener{
+		font-size:0.8vw;
+	}
+}
+#plan_zajec_kontener{
+    display:table;
+    width:auto;
+    background: #f2f2f2;
+    margin:2vw auto;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+}
+#plan_zajec_kontener p{
+    display:table-row;
+}
+.plan_zajec_komorka{
+    display:table-cell;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    padding:0.2vw 0.5vw 0.2vw 0.5vw;
+    width:7vw;
+    vertical-align: middle;
+}
+
+#nauczyciel_opcje{
+    text-align:left;
+}
+#nauczyciel_opcje form{
+    display:inline-block;
+}
+#nauczyciel_opcje select{
+    margin-left:1vw;
+    max-width:10vw;
+}
+#nauczyciel_opcje input[type="submit"]{
+    padding:0vw;
+    width:5vw;
+    margin-left:1vw;
+}
+#bladprzedmiot_szczegoly{
+    width:50%;
+    margin:2vw auto;
+    border: 1px solid #d3d3d3;
+    padding:0.5vw;
+}
+#bladprzedmiot_szczegoly p{
+    margin-top:0.5vw;
+}
+#rozklad_dnia_kontener{
+    display:table;
+    width: auto;
+    margin:1vw auto;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+}
+#rozklad_dnia_kontener p{
+    display:table-row;
+}
+#rozklad_dnia_kontener .dzienrozklad_komorka{
+    display:table-cell;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    vertical-align: middle;
+    padding:0.3vw;
+    
+}
+#rozklad_dnia_kontener .obecnosc_komorka{
+    width:15vw;
+}
+.obecnosc_komorka a{
+    color:#096fec;
+}
+#rozklad_dnia_kontener #belka_kolor{
+    background: #f2f2f2;
+    padding: 0.3vw;
+}
+#dzienrozklad_opcje{
+    width:30%;
+    margin:0vw auto;
+}
+#dzienrozklad_opcje input[type="submit"]{
+    width:auto;
+    padding: 0.2vw 1vw 0.2vw 1vw;
+    background: #f2f2f2;
+}
+#dzienrozklad_opcje a{
+    width:auto;
+    padding: 0.3vw 1vw 0.2vw 1vw;
+    border: 1px solid #d3d3d3;
+    background: #f2f2f2;
+    margin-left: 0.5vw;
+    color: #757373;
+    font-weight:bold;
+    
+}
+#lista_klas{
+    width:100%;
+    margin:0px auto;
+    text-align:center;
+}
+#lista_klas #klasa_oznacz{
+    border: 1px solid blue;
+    width:20%;
+    padding:1vw 0vw 1vw 0vw;
+    margin:0vw auto;
+    font-weight:bold;
+   
+}
+#lista_klas .linkklasa_kontener{
+    width:50%;
+    margin:1vw auto;
+    text-align:center;
+}
+#lista_klas .linkklasa_kontener div{
+    display:inline-block;
+    
+}
+#lista_klas .linkklasa_kontener .input_opcje{
+    width:10%;
+    text-align:right;
+}
+#lista_klas .linkklasa_kontener .link_pozycja{
+    width:80%;
+    margin-left:10%;
+    text-align:left;
+}
+#lista_klas #dzienrozklad_opcje{
+    margin-top:1vw;
+}
+#obecnosci_lista{
+    margin:2vw auto;
+}
+#obecnosci_lista #nauczyciel_opcje{
+    margin-bottom:3vw;
+}
+#obecnosci_lista #link{
+    display:block;
+    margin-top: 1vw;
+}
+#obecnosci_lista #link a{
+    color:#096fec;
+}
+#informacja{
+    margin:2vw auto;
+}
+#opislisty{
+    text-align:left;
+    margin-top: 2vw;
+}
+#lista_szczegoly{
+    margin: 3vw auto 2vw auto;
+}
+#lista_obecnosci_kontener, #lista_ocen_kontener{
+   display:table; 
+   width:100%;
+   border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    margin:1vw auto 2vw auto;
+}
+#lista_obecnosci_kontener p{
+   display:table-row; 
+}
+#lista_ocen_kontener p{
+   display:table-row; 
+}
+#lista_obecnosci_kontener .lista_obecnosci_osoba, #lista_ocen_kontener .lista_ocen_osoba, #lista_ocen_kontener .lista_ocen_osoba_podglad{
+  display:table-cell;  
+border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding:0.4vw;
+    vertical-align: middle;
+}
+#lista_ocen_kontener .lista_ocen_osoba{
+    width:30%;
+}
+#lista_ocen_kontener .lista_ocen_osoba_podglad{
+    width:10%;
+}
+#lista_obecnosci_kontener .lista_obecnosci_obecnosci, #lista_ocen_kontener .lista_ocen_oceny, #lista_ocen_kontener .lista_ocen_podsumowanie{
+    display:table-cell;  
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    text-align:left;
+    padding:0.4vw;
+    vertical-align: middle;
+}
+#lista_obecnosci_kontener .lista_obecnosci_obecnosci{
+    width:70%;
+}
+#lista_ocen_kontener .lista_ocen_oceny{
+    width:55%;
+}
+#lista_ocen_kontener .lista_ocen_oceny a{
+    margin-left:0.4vw;
+}
+#lista_ocen_kontener .lista_ocen_podsumowanie{
+    width:5%;
+    text-align:center;
+}
+#lista_obecnosci_kontener .belka_kolor{
+background: #f2f2f2;
+    text-align:center;
+    padding:0.2vw;
+}
+#lista_ocen_kontener .belka_kolor{
+background: #f2f2f2;
+    text-align:center;
+    padding:0.2vw;
+}
+.pasek_informacje{
+    margin-top:2vw;
+}
+.pasek_informacje  #pozycja{
+    
+    margin-top: 2vw;
+}
+.pasek_informacje .dziel_informacje{
+    text-align:left;
+    margin-top:1vw;
+}
+.pasek_informacje .dziel_informacje .kolor{
+ width:0.8vw;
+ height:0.8vw;
+    display:inline-block;
+}
+.czarny{
+    background:black;
+}
+.zielony{
+    background:green;
+}
+.niebieski{
+    background:blue;
+}
+.czerwony{
+    background:red;
+}
+.pasek_informacje .dziel_informacje div{
+    margin-left:1vw;
+}
+.pasek_informacje .dziel_informacje b{
+   font-weight:bold; 
+}
+.inline{
+    display:inline;
+}
+
+
+.oznacz_obecny{
+    color: #16b125;
+}
+.oznacz_spozniony{
+    color: #dba910;
+}
+.oznacz_nieobecny{
+    color: #e30707;
+}
+.oznacz_usprawiedliwiony{
+    color:#1a3af9;
+}
+#wagi_kontener{
+    margin-top:2vw;
+}
+#wagi_kontener .waga_dane_kontener .waga_lewa{
+    float:left;
+    width:10%;
+}
+#wagi_kontener .waga_dane_kontener .waga_prawa{
+    float:left;
+    width:70%;
+    
+}
+#wagi_kontener .waga_dane_kontener .waga_link {
+    float:right;
+    width:20%;
+}
+#wagi_kontener .waga_dane_kontener .waga_link a{
+    display:inline;
+    padding:0px;
+    border:none;
+    background:none;
+    color:#096fec;
+   
+}
+.notatki_kontener{
+    width: 90%;
+    margin:2vw auto;
+    text-align:left;
+}
+.notatki_kontener a{
+  float:left;  
+}
+.notatki_kontener .notatka_ramka{
+    display:inline-block;
+    padding:0.5vw;
+    margin:0.5vw;
+    background: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    width:9vw;
+    height:7vw;
+    font-size:0.9vw;
+    font-family:arial;
+}
+.notatki_kontener .notatka_ramka .notatka_tytul{
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom:0.5vw;
+    padding-bottom:0.5vw;
+    text-align:center;
+    color:black;
+}
+.notatki_kontener .notatka_ramka .notatka_tresc{
+    color:#9f9b9b;
+}
+#stronicowanie{
+    clear:both;
+    margin:2vw auto;
+    text-align:center;
+}
+#kalendarz_kontener{
+    width:80%;
+    margin: 3vw auto;
+}
+#dni_miesiaca{
+    width:100%;
+    display:table;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    background: #f2f2f2;
+}
+#dni_tygodnia{
+    width:100%;
+    display:table;
+    
+}
+#dni_miesiaca .wydarzenie{
+    background: #fecbcb;
+}
+#dni_miesiaca p, #dni_tygodnia p{
+    display:table-row;
+}
+#kalendarz_kontener .dzien_tygodnia{
+    display:table-cell;
+    font-family: Arial;
+    color: #bababa;
+    padding:0vw 2vw 1vw 2vw;
+}
+#dni_miesiaca .kalendarz_pole{
+    display:table-cell;
+    color: #010101;
+    padding:2.5vw;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+#kalendarz_data{
+    margin-top:2vw;
+}
+#kalendarz_data h1{
+    display:inline-block;
+    margin-right:3vw;
+}
+#kalendarz_data input[type="submit"]{
+    width:3vw;
+    padding:0vw;
+    margin:0vw;
+}
+#kalendarz_data select{
+    margin-right:2vw;
+    width:10vw;
+    text-align:center;
+}
+.wydarzenie_kontener{
+    width:90%;
+    display:table;
+    margin:1vw auto;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    
+}
+.wydarzenie_kontener .belka_kolor{
+    background: #f2f2f2;
+    padding: 0.5vw;
+}
+.wydarzenie_kontener p{
+    display:table-row;
+    
+}
+.wydarzenie_kontener .komorka{
+    display:table-cell;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 0.5vw;
+}
+#promocje_kontener{
+    display:table;
+    width:80%;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    margin:0vw auto;
+}
+#promocje_kontener p{
+    display:table-row;
+}
+#promocje_kontener .belka_kolor{
+    background: #f2f2f2;
+}
+#promocje_kontener .kategoria{
+    display:table-cell;
+    width:60%;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 0.3vw;
+}
+#promocje_kontener .akcja{
+    display:table-cell;
+    width:20%;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 0.3vw;
+}
+#promocje_opcje input{
+    padding:0.3vw;
+    width:auto;
+    font-size:0.8vw;
+}
+#promocje_kontener .akcja a{
+    display:inline-block;
+    width:auto;
+    padding:0.3vw;
+    margin:0vw;
+    font-weight:bold;
+    background: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    font-size: 0.8vw;
+    color: #757373;
+}
+.wyrownaj{
+    clear:both;
+}

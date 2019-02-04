@@ -1,0 +1,14 @@
+﻿listaszkol.html=>Szkoły
+wiadomosci.html=>Wiadomości
+powiadomienia.html=>Powiadomienia
+archiwum.html=>Archiwum
+nowedane.html=>Wprowadź dane
+konta_nauczyciele.html=>Konta
+kategorie.html=>Kategorie
+ogloszenia.html=>Ogłoszenia
+dziennik.html=>Dziennik
+organizer.html=>Organizer
+wykaz_ocen.html=>Oceny
+terminy.html=>Kalendarz
+plan_zajec.html=>Plan zajęć
+licencja.html=>Licencje

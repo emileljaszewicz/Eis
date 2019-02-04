@@ -1,0 +1,3 @@
+﻿1062=>Taki rekord już istnieje
+1366=>Nieprawidłowe wartości pól
+1451=>Nie można usunąć rekordu, gdyż jest używany

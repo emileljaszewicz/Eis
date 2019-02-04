@@ -1,0 +1,69 @@
+@import url("reset.css");
+body{
+	background: #f8f7f7;
+}
+
+@media screen and (min-width: 1024px) {
+	#strona_kontener{
+	width:80%;
+	}
+}
+#strona_kontener{
+	    
+            min-width:300px;
+        margin: 20px auto;
+        border: 1px solid #d3d3d3;
+		background: #F2F2F2;
+}
+#strona_kontener_baner{
+	width:100%;
+	border-bottom:1px solid #d3d3d3;
+	text-align:center;
+}
+#strona_kontener_baner img{
+	height:8vw;
+	margin:5px auto;
+}
+#menu_kontener{
+         width:100%;
+        background: #f8f8f8;
+        border-bottom:1px solid #d3d3d3;
+        text-align:left;
+        font-size:1.3vw;
+        color: #030303;
+        background: #F2F2F2;
+}
+#menu_kontener a{
+    display:inline-block;
+    margin: 0.5vw;
+    color: #030303;
+}
+#strona_zawartosc{
+	width:100%;
+        background: #f8f8f8;
+        margin:0px;
+        padding:1px 0px 1px 0px;
+        min-height:500px;
+        text-align:center;
+        color: 1e1d1d;
+        font-family: Arial;
+        font-size:1vw;
+        border-bottom:1px solid #d3d3d3;
+}
+#powitanie{
+    display:inline-block;
+    float:right;
+    margin: 0.5vw;
+    font-size: 1vw;
+    font-weight:bold;
+}
+#stopka{
+    text-align:center;
+    padding:0.5vw 0vw 0.5vw 0vw;
+    color: #8d8d8d;
+    font-family: arial;
+    font-size:0.8vw;
+}
+#wyrownaj{
+	clear:both;
+}
